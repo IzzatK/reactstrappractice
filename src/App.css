@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+/* #popupmenucontainer {
+  width:20%;
+} */
 
 @media(min-width:1000px) {
   #popupmenu{
