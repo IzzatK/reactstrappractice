@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './bootstrap.css';
 import PopupMenu from './PopupMenu'
+import SidenavMenu from './SidenavMenu';
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
    
       <div id="popupmenu">
         <PopupMenu/>
+      </div>
+      <div id="sidenavmenu">
+        <SidenavMenu/>
       </div>
       
     </div>

@@ -8,6 +8,12 @@
   }
 }
 
+@media(max-width:1000px) {
+  #sidenavmenu {
+    display:none;
+  }
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
