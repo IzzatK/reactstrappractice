@@ -4,6 +4,7 @@ import './bootstrap.css';
 import PopupMenu from './PopupMenu'
 import SidenavMenu from './SidenavMenu';
 import TopnavMenu from './TopnavMenu';
+import SigninCard from './SigninCard'
 
 function App() {
   return (
@@ -19,6 +20,13 @@ function App() {
       </div> */}
     <div className="container" id="topnavmenu">
       <TopnavMenu/>
+    </div>
+
+    <div className="container">
+      <div className="row">
+        <SigninCard/>
+
+      </div>
     </div>
       
     </div>
