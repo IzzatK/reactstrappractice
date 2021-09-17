@@ -8,18 +8,20 @@ export default class SigninCard extends Component {
                     <div class="d-flex">
                         <div class="row justify-content-center">
                             <div id="reservationcard" class="card" id="card1">
-                                <h3 class="card-header bg-warning text-white text-center" id="kloudheader">Sign in to your kloudstudio account</h3>
+                                <h3 class="card-header bg-warning text-white text-center mb-2" id="kloudheader">Sign in to your kloudstudio account</h3>
+                                <p id="signupheader" class="mt-2">Don't have an account? <a href="#" id="freetrialtext">Start a free trial</a></p>
+
                                 <div class="card-body">
-                                    <div class="col-12">
+                                    <div class="col-12" id="signinform">
                                        <p id="emailpar " class="">With email </p>
                                        
                                        
-  <input class=""type="text" id="fname" name="fname"/><br/>
+  <input class=""type="text" id="fname" name="fname" style={{width: "116%"}}/><br/>
  
 <div id="lowerinputform">
- <p id="reservecardpars" class="float-middle">Password <p class="float-right">Forgot Password</p></p>    
+ <p id="reservecardpars" class="float-middle mt-2">Password <p class="float-right ">Forgot Password</p></p>    
                                        
-                                       <input class="mb-1"type="text" id="fname" name="fname"/><br/>
+                                       <input class="mb-1"type="text" style={{width: "116%"}} id="fname" name="fname"/><br/>
     </div>
     </div>
                                        
@@ -34,17 +36,17 @@ export default class SigninCard extends Component {
                                     <div class="row justify-content-center ">
                                     <button type="button"  id="smbutton" class="btn btn-primary  mt-1">Small button</button> 
                                     <div id="div1">
-  <span id="span1">
-    Section Title
-  </span>
-</div>                                 
+                                        <span id="span1">
+                                                     Or continue with
+                                        </span>
+                                    </div>                                 
                                     </div>
                                     <div class="row justify-content-center">
                                     
                                    <div class="btn-group-toggle" >
-                                     <button class="btn btn-sm justify-content-left"><i class="fab fa-google"></i></button>
-                                    <button class="btn btn-sm justify-contentcenter">Btn2</button> 
-                                    <button class="btn btn-sm justify-content-right">Btn3</button> 
+                                     <button class="btn btn-lg justify-content-left"><span class="fa fa-facebook"></span></button>
+                                    <button class="btn btn-lg justify-contentcenter"><span class="fa fa-google"></span></button> 
+                                    <button class="btn btn-lg justify-content-right"><span class="fa fa-github"></span></button> 
                                     </div>
                                     
                                     </div> 

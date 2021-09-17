@@ -5,11 +5,19 @@
     top:45px;
     
 }
+ #signinform {
+    position:relative;
+    left:-25px;
+} 
 #smbutton {
     padding: 3px 48.7px 3px 48.7px;
     position:relative;
-    left:5px;
+    
     font-size:24.5px;
+}
+#freetrialtext {
+    text-decoration:none;
+    color: darkred;
 }
 #span1 {
     font-size: 17.7px; background-color: white; padding: 0 10px;
