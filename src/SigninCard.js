@@ -23,14 +23,14 @@ export default class SigninCard extends Component {
     </div>
     </div>
                                        
-                                    {/* <div class="row justify-content-center">
+                                     {/* <div class="row justify-content-center">
                                     
                                     <>
                                     <button class=""></button>
-                                    {/* <label class="radio-inline align-self-center"><input id="Radios1" type="radio" name="survey" value="1"/></label>
+                                     <label class="radio-inline align-self-center"><input id="Radios1" type="radio" name="survey" value="1"/></label>
                                     <label class="radio-inline align-self-center"><input id="Radios1" type="radio" name="survey" value="1"/></label> *
                                     </>
-                                    </div> */}
+                                    </div>  */}
                                     <div class="row justify-content-center ">
                                     <button type="button"  id="smbutton" class="btn btn-primary  mt-1">Small button</button> 
                                     <div id="div1">
@@ -39,7 +39,16 @@ export default class SigninCard extends Component {
   </span>
 </div>                                 
                                     </div>
-                                    {/* <hr style={{color:"blue", poistion:"relative", top:"50px"}}/> */}
+                                    <div class="row justify-content-center">
+                                    
+                                   <div class="btn-group-toggle" >
+                                     <button class="btn btn-sm justify-content-left"><i class="fab fa-google"></i></button>
+                                    <button class="btn btn-sm justify-contentcenter">Btn2</button> 
+                                    <button class="btn btn-sm justify-content-right">Btn3</button> 
+                                    </div>
+                                    
+                                    </div> 
+                                     {/* <hr style={{color:"blue", poistion:"relative", top:"50px"}}/>  */}
                                     
                                 </div>
                             </div>
