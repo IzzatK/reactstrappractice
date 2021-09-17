@@ -16,12 +16,12 @@ export default class SigninCard extends Component {
                                        <p id="emailpar">With email </p>
                                        
                                        
-  <input class=""type="text" id="fname" name="fname" style={{width: "116%"}}/><br/>
+  <input class=""type="text" id="fname" name="fname" style={{width: "113%"}}/><br/>
  
 <div id="lowerinputform">
  <p id="passpars" class="float-middle mt-2">Password <button id="forgotpass" class="btn btn-sm float-right ">Forgot Password</button></p>    
                                        
-                                       <input class="mb-1"type="text" style={{width: "116%"}} id="fname" name="fname"/><br/>
+                                       <input class="mb-1"type="text" style={{width: "113%"}} id="fname" name="fname"/><br/>
     </div>
     </div>
                                        

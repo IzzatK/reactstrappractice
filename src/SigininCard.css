@@ -12,7 +12,7 @@
 }
  #signinform {
     position:relative;
-    left:-25px;
+    left:-27px;
 } 
 #smbutton {
     padding: 3px 48.7px 3px 48.7px;
@@ -32,7 +32,7 @@
 #forgotpass {
     background:none;
     position:relative;
-    bottom:5.23px;
+    bottom:4.67px;
     font-size:15.45px;
     
 }
@@ -42,7 +42,7 @@
 }
 #emailpar {
     position:relative;
-    right:176.1px;
+    right:175px;
 }
 
 #div1 {
@@ -57,8 +57,10 @@ background: linear-gradient(to right, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, F
 
 } 
 
-/* #smbutton{
-    position:relative;
-    right:81.7px;
-    top:20px;
-} */
+ #smbutton{
+   width:200%;
+   background: #333333;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+} 
