@@ -26,7 +26,9 @@ export default class TopnavMenu extends Component {
     </span>
   </div>
 </nav> */}
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" style={{ background: "background: #2b5876",  
+                                                                  background: "-webkit-linear-gradient(to right, #4e4376, #2b5876)",  
+                                                                  background: "linear-gradient(to right, #4e4376, #2b5876)"}}>
 <a class="navbar-brand" href="#">Navbar w/ text</a>
 <h2 class="text-white">Kloudstudio</h2>
 <ul class="navbar-nav ml-auto">

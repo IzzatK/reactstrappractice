@@ -8,18 +8,18 @@ export default class SigninCard extends Component {
                     <div class="d-flex">
                         <div class="row justify-content-center">
                             <div id="reservationcard" class="card" id="card1">
-                                <h3 class="card-header bg-warning text-white text-center mb-2" id="kloudheader">Sign in to your kloudstudio account</h3>
+                                <h3 class="card-header bg-none text-white text-center mb-2" id="kloudheader">Sign in to your kloudstudio account</h3>
                                 <p id="signupheader" class="mt-2">Don't have an account? <a href="#" id="freetrialtext">Start a free trial</a></p>
 
                                 <div class="card-body">
                                     <div class="col-12" id="signinform">
-                                       <p id="emailpar " class="">With email </p>
+                                       <p id="emailpar">With email </p>
                                        
                                        
   <input class=""type="text" id="fname" name="fname" style={{width: "116%"}}/><br/>
  
 <div id="lowerinputform">
- <p id="reservecardpars" class="float-middle mt-2">Password <p class="float-right ">Forgot Password</p></p>    
+ <p id="passpars" class="float-middle mt-2">Password <button id="forgotpass" class="btn btn-sm float-right ">Forgot Password</button></p>    
                                        
                                        <input class="mb-1"type="text" style={{width: "116%"}} id="fname" name="fname"/><br/>
     </div>
@@ -35,7 +35,7 @@ export default class SigninCard extends Component {
                                     </div>  */}
                                     <div class="row justify-content-center ">
                                     <button type="button"  id="smbutton" class="btn btn-primary  mt-1">Small button</button> 
-                                    <div id="div1">
+                                    <div id="div1" class="mt-2">
                                         <span id="span1">
                                                      Or continue with
                                         </span>
