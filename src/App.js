@@ -22,7 +22,7 @@ function App() {
       <TopnavMenu/>
     </div>
 
-    <div className="container">
+    <div className="container offset-4 col-4 col-xs-4 col-sm-4">
       <div className="row">
         <SigninCard/>
 

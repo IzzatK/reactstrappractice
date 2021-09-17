@@ -8,13 +8,16 @@ export default class SigninCard extends Component {
                     <div class="d-flex">
                         <div class="row justify-content-center">
                             <div id="reservationcard" class="card" id="card1">
-                                <h3 class="card-header bg-warning text-white text-center">Sign in to your kloudstudio account</h3>
+                                <h3 class="card-header bg-warning text-white text-center" id="kloudheader">Sign in to your kloudstudio account</h3>
                                 <div class="card-body">
                                     <div class="col-3">
                                        <p id="reservecardpars ">With email </p>
                                        
+                                       
   <input class=""type="text" id="fname" name="fname"/><br/>
-  <p id="reservecardpars ">Password </p>
+ 
+  
+ <p id="reservecardpars" class="">Password <p class="align-middle">Hi</p></p>    
                                        
                                        <input class=""type="text" id="fname" name="fname"/><br/>
     </div>
@@ -28,7 +31,7 @@ export default class SigninCard extends Component {
                                     </>
                                     </div> */}
                                     <div class="row justify-content-center ">
-                                    <button type="button" style={{width: "27.7%"}} class="btn btn-primary btn-sm">Small button</button>                                    </div>
+                                    <button type="button" style={{width: "27.7%"}} id="smbutton" class="btn btn-primary btn-sm">Small button</button>                                    </div>
                                 </div>
                             </div>
                         </div>
