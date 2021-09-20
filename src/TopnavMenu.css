@@ -1,0 +1,12 @@
+#topnav {
+    background: #2b5876;
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
+    background: linear-gradient(to right, #4e4376, #2b5876);
+   
+     /* just an estimate of your sidebar's width */
+  width: calc(170% - 200px);
+    
+}
+#navcontainer {
+   
+}

@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+
+#topnavmenu {
+  position:relative;
+  right:300px;
+}
 /* #popupmenucontainer {
   width:20%;
 } */
@@ -16,7 +21,7 @@
     display:none;
   }
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -50,4 +55,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
