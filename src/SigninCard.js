@@ -3,6 +3,9 @@ import "./SigininCard.css";
 
 //try to use label HTML tag instead of header tags for the form inputs
 const SigninCard = () => {
+  const alertFuncn = () => {
+    window.alert("Hey you've clicked form button");
+  };
   const AuthCard = () => (
     <div class="d-flex">
       <div class="row justify-content-center">
@@ -61,7 +64,11 @@ const SigninCard = () => {
                                     </>
                                     </div>  */}
             <div class="row justify-content-center ">
-              <button type="button" id="smbutton" class="btn btn-primary  mt-1">
+              <button
+                onClick={alertFuncn}
+                id="smbutton"
+                class="btn btn-primary  mt-1"
+              >
                 Small button
               </button>
               <div id="div1" class="mt-2">

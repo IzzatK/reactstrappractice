@@ -3,22 +3,22 @@
 }
 
 #topnavmenu {
-  position:relative;
-  right:300px;
+  position: relative;
+  right: 300px;
 }
 /* #popupmenucontainer {
   width:20%;
 } */
 
-@media(min-width:1000px) {
-  #popupmenu{
-    display:none;
+@media (min-width: 992px) {
+  #popupmenu {
+    display: none;
   }
 }
 
-@media(max-width:1000px) {
-  #sidenavmenu {
-    display:none;
+@media (max-width: 993px) {
+  #topnavmenu {
+    display: none;
   }
 }
 /* 
